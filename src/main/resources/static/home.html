@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Home — The Hive Collective</title>
+<meta name="description"
+	content="DoIt Club connects people through shared interests like yoga, cricket, gym, dance, and running. Join clubs, discover events, and meet new friends." />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+	rel="stylesheet">
+<link rel="icon" type="image/png" href="/media/DoIt_logo_4.png">
+<link rel="stylesheet" href="css/home.css">
+</head>
+<body>
+	<header>
+		<div class="container nav">
+			<div class="brand">
+				<a href="/" class="logo-link"> <img src="/media/DoIt_logo_4.png"
+					alt="DoIt Club" class="logo-img" />
+				</a>
+			</div>
+			<div>
+				<a class="btn ghost" href="#clubs">Explore Clubs</a>
+			</div>
+		</div>
+	</header>
+	<main class="container">
+		<section class="hero">
+			<video autoplay muted loop id="silvera" class="video-overlay">
+				<source src="/media/Silvera.mp4" type="video/mp4">
+			</video>
+
+			<div class="pill">Find your people. Do more.</div>
+			<h1>Hive!</h1>
+			<p>The DoIt Club connects you with nearby humans who share your
+				interests — yoga, pickleball, dance, running, and more. Join clubs,
+				discover events, and make your real connections.</p>
+		</section>
+
+		<h1>Explore Clubs</h1>
+		<section id="clubs" class="grid">
+			<div class="card">
+				<h3 class="feature-title">➕ Build your Pickle Squad</h3>
+				<p class="subtle">Create a club, set meetups, be the manager and
+					grow your community.</p>
+			</div>			
+
+			<div class="card">
+				<h3 class="feature-title">🏓 PicklePals</h3>
+				<p class="subtle">Fun rallies, quick games, and social matches.</p>
+			</div>
+
+			<!--<div class="card">
+				<h3 class="feature-title">🏃 PacePack</h3>
+				<p class="subtle">5K starts, tempo runs, weekend long runs.</p>
+			</div>
+
+			<div class="card">
+				<h3 class="feature-title">🧘 SoulStretch</h3>
+				<p class="subtle">Morning sessions, sunset flows, weekend
+					retreats.</p>
+			</div>
+
+			 <div class="card">
+			  <h3 class="feature-title">🏸 SmashMates</h3>
+			  <p class="subtle">Singles, doubles, and weekend rallies.</p>
+			</div>
+
+			<div class="card">
+				<h3 class="feature-title">🏋️ IronTribe</h3>
+				<p class="subtle">Accountability partners, form checks, PR days.</p>
+			</div>
+			
+			<div class="card">
+				<h3 class="feature-title">🏏 StumpGang</h3>
+				<p class="subtle">Gully matches, practice nets, friendly
+					tournaments.</p>
+			</div>
+			<div class="card">
+				<h3 class="feature-title">⚽ KickSquad</h3>
+				<p class="subtle">Pass, dribble, score – enjoy the game as a
+					team</p>
+			</div>
+			<div class="card">
+				<h3 class="feature-title">💃 StepSquad</h3>
+				<p class="subtle">Workshops, socials, performance squads.</p>
+			</div> -->
+		</section>
+
+		<h1>How we work?</h1>
+		<section id="how" class="grid" style="margin-top: 40px;">
+			<div class="card">
+				<h4 class="feature-title">1) Pick interests</h4>
+				<ul class="list">
+					<li>Yoga, cricket, dance, gym, running, and more</li>
+					<li>Choose 2–5 to get the best matches</li>
+				</ul>
+			</div>
+			<div class="card">
+				<h4 class="feature-title">2) Join clubs</h4>
+				<ul class="list">
+					<li>Discover local groups that fit your vibe</li>
+					<li>See upcoming meetups and chats</li>
+				</ul>
+			</div>
+			<div class="card">
+				<h4 class="feature-title">3) Show up IRL</h4>
+				<ul class="list">
+					<li>Meet people, do stuff, repeat</li>
+					<li>Real connections beyond swipes</li>
+				</ul>
+			</div>
+		</section>
+	</main>
+	<footer>
+		© <span id="year"></span> DoIt Club • Built for real-world connections
+		<div>Enquiry: 8953049288 | doitofficial@gmail.com</div>
+		<div>• Areej and Roy Co.</div>
+	</footer>
+	<script>
+		document.getElementById('year').textContent = new Date().getFullYear();
+	</script>
+</body>
+</html>
